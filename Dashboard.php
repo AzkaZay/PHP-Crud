@@ -53,13 +53,15 @@
         }
 
         .btn-success {
-            background-color: #28a745;
-            border-color: #28a745;
+            background-color:rgb(100, 36, 86);
+            border-color:rgb(180, 121, 180); 
+            opacity: 80%;
+            align-items: center;
         }
 
         .btn-success:hover {
-            background-color: #218838;
-        }
+            background-color:rgb(180, 121, 180);
+            transition: 0.3s ease-in-out;        }
 
         .alert-danger {
             background-color: rgba(255, 0, 0, 0.3);

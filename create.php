@@ -93,9 +93,74 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             background-position: center;
             color: white;
         }
+
         .navbar {
             background-color: rgba(63, 4, 53, 0.8);
             opacity:80%;
+        }
+
+        .wrapper {
+            width: 40%;
+            max-width: 900px;
+            min-height: auto; /* Ensures height adjusts dynamically */
+            height: auto; /* Removes fixed height */
+            margin: 30px auto; /* Reduce top margin */
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 15px; /* Reduce padding */
+            border-radius: 10px;
+            border: 2px solid white;
+        }
+
+        table {
+            background-color:white;
+            color: white;
+        }
+
+        table thead {
+            background-color: rgba(255, 255, 255, 0.3);
+            color: black;
+        }
+
+        table tr td, table tr th {
+            border-color: white;
+        }
+
+        table tr td a {
+            color: white;
+            margin-right: 10px;
+        }
+        H2{
+            background-color:rgb(100, 36, 86);
+            border-radius: 50%;
+            margin-left:10%;
+            margin-right: 10%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            opacity: 80%;
+            text-align: center;
+        }
+        .container-fluid{
+            padding: 3px;
+        }
+
+        .form-group{
+            margin-bottom: 10px;
+        }
+
+        .btn.btn.btn-primary {
+            background-color:rgb(100, 36, 86);
+            border-color:rgb(180, 121, 180); 
+            opacity: 80%;
+            align-items: center;
+        }
+
+        .btn.btn-primary:hover {
+            background-color:rgb(180, 121, 180);
+            transition: 0.3s ease-in-out;
+        }
+        .btn.btn-secondary.ml-2:hover{
+            background-color:rgb(180, 121, 180);
+            transition: 0.3s ease-in-out;
         }
     </style>
 </head>
@@ -121,7 +186,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="mt-5">Create Record</h2>
+                    <h2 class="mt-1">Create Record</h2>
                     <p>Please fill this form and submit to add pastry record to the database.</p>
                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                         <div class="form-group">
@@ -160,8 +225,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <?php echo $price_err; ?>
                             </span>
                         </div>
+                        <div class="col-12 text-center">
                         <input type="submit" class="btn btn-primary" value="Submit" href="Dashboard.php">
                         <a href="dashboard.php" class="btn btn-secondary ml-2">Cancel</a>
+                        </div>
                     </form>
                 </div>
             </div>

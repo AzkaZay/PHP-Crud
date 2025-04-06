@@ -165,8 +165,10 @@
         <script>
         const pages = {
             "Home": "homepage.php",
+            "Homepage": "homepage.php",
             "Dashboard": "Dashboard.php",
             "Orders": "Dashboard.php",
+            "catalogue": "catalogue.php",
             "Contact": "contact.php",
             "Contact Us": "contact.php",
             "About": "contact.php"

@@ -33,3 +33,8 @@ The project consists of basic CRUD and displays some amazing zoom out features u
 
 ![Screenshot 2025-04-20 175731](https://github.com/user-attachments/assets/b5277166-b7ef-429e-b333-d0d99b5932ba)
 ![Screenshot 2025-04-20 175621](https://github.com/user-attachments/assets/8215168f-d5b3-4430-9fb1-82940da8b946)
+
+ 7. Contact us
+
+![Screenshot 2025-04-20 174933](https://github.com/user-attachments/assets/438e7da2-e28b-4c80-abdf-d1655dedff45)
+

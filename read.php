@@ -67,7 +67,6 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
 
         .navbar {
             background-color: rgba(63, 4, 53, 0.8);
-            opacity:80%;
         }
 
         .wrapper {
@@ -144,9 +143,9 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
             </button>
             <div div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="homepage.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Dashboard.php">Orders</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="PHP-Crud/homepage.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="PHP-Crud/Dashboard.php">Orders</a></li>
+                    <li class="nav-item"><a class="nav-link" href="PHP-Crud/contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>

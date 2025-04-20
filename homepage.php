@@ -14,7 +14,7 @@
 
     <style>
         body {
-            background-image:  url(bg4.jpg);
+            background-image: linear-gradient(rgba(77, 26, 69, 0.5), rgba(77, 26, 69, 0.5)), url(bg4.jpg);
             background-size: cover;
             background-position: center;
             color: white;
@@ -22,7 +22,6 @@
 
         .navbar {
             background-color: rgba(63, 4, 53, 0.8);
-            opacity:80%;
         }
 
         .wrapper, .wrapper2, .wrapper3 {
@@ -83,12 +82,12 @@
         }
 
         .btn-success {
-            background-color: #28a745;
-            border-color: #28a745;
+            background-color:rgb(53, 5, 53);
+            border-color:rgb(63, 11, 54);
         }
 
         .btn-success:hover {
-            background-color: #218838;
+            background-color:rgb(77, 10, 60);
         }
 
         .alert-danger {
@@ -220,9 +219,8 @@
                     </button>
                     <div div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a class="nav-link" href="homepage.php">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="Dashboard.php">Orders</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -232,14 +230,14 @@
         <div class="row">
             <div class="wrapper" id="hov">
             <h2 class="text-center">
-            <a href="Dashboard.php" style="text-decoration: none; color: inherit;">List</a>
+            <a href="PHP-Crud/Dashboard.php" style="text-decoration: none; color: inherit;">List</a>
             </h2>
                 <p class="text-center">List of Orders</p>
                 <p class="text-center">Click here to view Muliple Orders of the Website.</p>
             </div>
             <div class="wrapper2" id="hov">
             <h2 class="text-center">
-            <a href="create.php" style="text-decoration: none; color: inherit;">Orders</a>
+            <a href="PHP-Crud/create.php" style="text-decoration: none; color: inherit;">Orders</a>
             </h2>                
             <p class="text-center">Add Record</p>
                 <p class="text-center">Add your details to the form for a registered record.</p>

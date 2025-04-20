@@ -241,9 +241,9 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
             </button>
             <div div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="homepage.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Dashboard.php">Orders</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="PHP-Crud/homepage.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="PHP-Crud/Dashboard.php">Orders</a></li>
+                    <li class="nav-item"><a class="nav-link" href="PHP-Crud/contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>

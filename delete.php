@@ -63,7 +63,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
                             <input type="hidden" name="id" value="<?php echo trim($_GET["id"]); ?>"/>
                             <p>Are you sure you want to delete this order record?</p>
                             <p>
-                                <input type="submit" value="Yes" class="btn btn-danger" href="Dashboard.php">
+                                <input type="submit" value="Yes" class="btn btn-danger" href="PHP-Crud/Dashboard.php">
                                 <a href="Dashboard.php" class="btn btn-secondary ml-2">No</a>
                             </p>
                         </div>

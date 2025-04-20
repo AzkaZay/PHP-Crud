@@ -1,5 +1,5 @@
 # PHP-Crud 
-This project is an online Bakery, it covers PHP and a bit of Javascript.
+This project is an online Bakery, it covers PHP and HTML/CSS.
 The project consists of basic CRUD and displays some amazing zoom out features upon selection.
  -Shopping cart feature
  -Cart bill calculation
